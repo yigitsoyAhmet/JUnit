@@ -14,7 +14,7 @@ public class C04_FileExistsTest {
     public void test01(){
         //com.Team113JUnit projesi içerisinde deneme.txt dosyasının var oldugunu test edin
 
-        String dosyayolu="day10_actionsClassFaker_FileTestleri/deneme.txt";
+        String dosyayolu="src/test/java/day10_actionsClassFaker_FileTestleri/deneme.txt";
 
         Assert.assertTrue(Files.exists(Paths.get(dosyayolu)));
 

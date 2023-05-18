@@ -23,7 +23,7 @@ public class C07_FileUploadTesti extends TestBase {
          // projemizdeki deneme.txt dosyasini secelim.
         WebElement chooseFileButonu= driver.findElement(By.id("file-upload"));
         String herkesteFarkliOlan=System.getProperty("user.dir");
-        String herkesteAyniOlan="/src/test/java/day10_actionsClass_Faker_FileTestleri/deneme.txt";
+        String herkesteAyniOlan="src/test/java/day10_actionsClassFaker_FileTestleri/deneme.txt";
         String dosyaYolu=herkesteAyniOlan+herkesteFarkliOlan;
         chooseFileButonu.sendKeys(dosyaYolu);
          //Upload butonuna basalim.

@@ -22,7 +22,7 @@ public class C05_FileDownloadTest extends TestBase {
         Thread.sleep(3000);
         //4. Dosyanın başarıyla indirilip indirilmediğini test edelim
         // Dosyayi Downloads klasorune indirecek
-        String dosyaYolu= "/Users/ahmetbulutluoz/Downloads/foto.png";
+        String dosyaYolu= "C:\\Users\\ahmet\\Downloads\\foto.png";
         Assert.assertTrue(Files.exists(Paths.get(dosyaYolu)));
         // herkesin bilgisayarinda farkli bir dosya hiyerarsisi oldugundan
         // herkesin dosya yolu birbirinden farkli olur
